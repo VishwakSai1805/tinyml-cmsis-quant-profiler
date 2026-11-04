@@ -32,3 +32,21 @@ def has_tool(name):
 
 needs_arm = pytest.mark.skipif(not (has_tool("arm-none-eabi-gcc") and has_tool("qemu-system-arm")),
                                reason="ARM toolchain / QEMU not installed")
+
+
+@pytest.fixture(scope="session")
+def host_results(built, tmp_path_factory):
+    from compiler import profiler
+    out = {}
+    for name, r in built.items():
+        out[name] = profiler.run_host(r["dir"], str(tmp_path_factory.mktemp("host_" + name)))
+    return out
+
+
+@pytest.fixture(scope="session")
+def qemu_results(built, tmp_path_factory):
+    from compiler import profiler
+    out = {}
+    for name, r in built.items():
+        out[name] = profiler.run_qemu(r["dir"], str(tmp_path_factory.mktemp("qemu_" + name)))
+    return out
