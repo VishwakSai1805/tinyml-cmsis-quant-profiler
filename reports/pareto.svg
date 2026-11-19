@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="sans-serif" font-size="11">
+<rect width="720" height="420" fill="white"/>
+<line x1="64" x2="570" y1="368.0" y2="368.0" stroke="#e5e5e5"/><text x="56" y="372.0" text-anchor="end" fill="#444">76</text>
+<line x1="64" x2="570" y1="333.6" y2="333.6" stroke="#e5e5e5"/><text x="56" y="337.6" text-anchor="end" fill="#444">78</text>
+<line x1="64" x2="570" y1="299.2" y2="299.2" stroke="#e5e5e5"/><text x="56" y="303.2" text-anchor="end" fill="#444">80</text>
+<line x1="64" x2="570" y1="264.8" y2="264.8" stroke="#e5e5e5"/><text x="56" y="268.8" text-anchor="end" fill="#444">82</text>
+<line x1="64" x2="570" y1="230.4" y2="230.4" stroke="#e5e5e5"/><text x="56" y="234.4" text-anchor="end" fill="#444">84</text>
+<line x1="64" x2="570" y1="196.0" y2="196.0" stroke="#e5e5e5"/><text x="56" y="200.0" text-anchor="end" fill="#444">86</text>
+<line x1="64" x2="570" y1="161.6" y2="161.6" stroke="#e5e5e5"/><text x="56" y="165.6" text-anchor="end" fill="#444">88</text>
+<line x1="64" x2="570" y1="127.2" y2="127.2" stroke="#e5e5e5"/><text x="56" y="131.2" text-anchor="end" fill="#444">90</text>
+<line x1="64" x2="570" y1="92.8" y2="92.8" stroke="#e5e5e5"/><text x="56" y="96.8" text-anchor="end" fill="#444">92</text>
+<line x1="64" x2="570" y1="58.4" y2="58.4" stroke="#e5e5e5"/><text x="56" y="62.4" text-anchor="end" fill="#444">94</text>
+<line x1="64" x2="570" y1="24.0" y2="24.0" stroke="#e5e5e5"/><text x="56" y="28.0" text-anchor="end" fill="#444">96</text>
+<line x1="172.8" x2="172.8" y1="24" y2="368" stroke="#e5e5e5"/><text x="172.8" y="384" text-anchor="middle" fill="#444">1,000</text>
+<line x1="405.1" x2="405.1" y1="24" y2="368" stroke="#e5e5e5"/><text x="405.1" y="384" text-anchor="middle" fill="#444">10,000</text>
+<text x="317.0" y="410" text-anchor="middle" fill="#222">Model Flash (bytes, log scale)</text>
+<text transform="translate(16,196.0) rotate(-90)" text-anchor="middle" fill="#222">Held-out accuracy (%)</text>
+<circle cx="261.8" cy="226.1" r="11.5" fill="#888780" fill-opacity="0.8" stroke="white" stroke-width="1"><title>4-8/k3 FP32: 84.25% / 2416 B / arena 976 B</title></circle>
+<circle cx="257.7" cy="263.4" r="11.4" fill="#888780" fill-opacity="0.8" stroke="white" stroke-width="1"><title>4-8/k5 FP32: 82.08% / 2320 B / arena 928 B</title></circle>
+<circle cx="346.3" cy="124.3" r="13.2" fill="#888780" fill-opacity="0.8" stroke="white" stroke-width="1"><title>8-16/k3 FP32: 90.17% / 5584 B / arena 1952 B</title></circle>
+<circle cx="342.8" cy="143.0" r="13.1" fill="#888780" fill-opacity="0.8" stroke="white" stroke-width="1"><title>8-16/k5 FP32: 89.08% / 5392 B / arena 1856 B</title></circle>
+<circle cx="440.7" cy="85.6" r="14.9" fill="#888780" fill-opacity="0.8" stroke="white" stroke-width="1"><title>16-32/k3 FP32: 92.42% / 14224 B / arena 3904 B</title></circle>
+<circle cx="437.9" cy="81.3" r="14.8" fill="#888780" fill-opacity="0.8" stroke="white" stroke-width="1"><title>16-32/k5 FP32: 92.67% / 13840 B / arena 3712 B</title></circle>
+<circle cx="546.8" cy="49.8" r="16.6" fill="#888780" fill-opacity="0.8" stroke="white" stroke-width="1"><title>32-64/k3 FP32: 94.50% / 40720 B / arena 7808 B</title></circle>
+<circle cx="544.9" cy="49.8" r="16.4" fill="#888780" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>32-64/k5 FP32: 94.50% / 39952 B / arena 7424 B</title></circle>
+<circle cx="141.4" cy="203.2" r="8.0" fill="#185FA5" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>4-8/k3 INT8: 85.58% / 732 B / arena 244 B</title></circle>
+<circle cx="90.0" cy="293.5" r="8.0" fill="#BA7517" fill-opacity="0.8" stroke="white" stroke-width="1"><title>4-8/k3 INT4: 80.33% / 440 B / arena 244 B</title></circle>
+<circle cx="90.0" cy="284.9" r="8.0" fill="#1D9E75" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>4-8/k3 INT4-MSE: 80.83% / 440 B / arena 244 B</title></circle>
+<circle cx="138.0" cy="261.9" r="7.8" fill="#185FA5" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>4-8/k5 INT8: 82.17% / 708 B / arena 232 B</title></circle>
+<circle cx="87.2" cy="340.8" r="7.8" fill="#BA7517" fill-opacity="0.8" stroke="white" stroke-width="1"><title>4-8/k5 INT4: 77.58% / 428 B / arena 232 B</title></circle>
+<circle cx="87.2" cy="322.1" r="7.8" fill="#1D9E75" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>4-8/k5 INT4-MSE: 78.67% / 428 B / arena 232 B</title></circle>
+<circle cx="221.5" cy="128.6" r="9.8" fill="#185FA5" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>8-16/k3 INT8: 89.92% / 1620 B / arena 488 B</title></circle>
+<circle cx="166.2" cy="163.0" r="9.8" fill="#BA7517" fill-opacity="0.8" stroke="white" stroke-width="1"><title>8-16/k3 INT4: 87.92% / 936 B / arena 488 B</title></circle>
+<circle cx="166.2" cy="130.1" r="9.8" fill="#1D9E75" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>8-16/k3 INT4-MSE: 89.83% / 936 B / arena 488 B</title></circle>
+<circle cx="218.5" cy="137.2" r="9.7" fill="#185FA5" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>8-16/k5 INT8: 89.42% / 1572 B / arena 464 B</title></circle>
+<circle cx="163.5" cy="173.1" r="9.7" fill="#BA7517" fill-opacity="0.8" stroke="white" stroke-width="1"><title>8-16/k5 INT4: 87.33% / 912 B / arena 464 B</title></circle>
+<circle cx="163.5" cy="160.2" r="9.7" fill="#1D9E75" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>8-16/k5 INT4-MSE: 88.08% / 912 B / arena 464 B</title></circle>
+<circle cx="312.0" cy="82.8" r="11.5" fill="#185FA5" fill-opacity="0.8" stroke="white" stroke-width="1"><title>16-32/k3 INT8: 92.58% / 3972 B / arena 976 B</title></circle>
+<circle cx="253.3" cy="138.7" r="11.5" fill="#BA7517" fill-opacity="0.8" stroke="white" stroke-width="1"><title>16-32/k3 INT4: 89.33% / 2220 B / arena 976 B</title></circle>
+<circle cx="253.3" cy="97.1" r="11.5" fill="#1D9E75" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>16-32/k3 INT4-MSE: 91.75% / 2220 B / arena 976 B</title></circle>
+<circle cx="309.5" cy="78.5" r="11.4" fill="#185FA5" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>16-32/k5 INT8: 92.83% / 3876 B / arena 928 B</title></circle>
+<circle cx="251.1" cy="110.0" r="11.4" fill="#BA7517" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>16-32/k5 INT4: 91.00% / 2172 B / arena 928 B</title></circle>
+<circle cx="251.1" cy="112.9" r="11.4" fill="#1D9E75" fill-opacity="0.8" stroke="white" stroke-width="1"><title>16-32/k5 INT4-MSE: 90.83% / 2172 B / arena 928 B</title></circle>
+<circle cx="414.6" cy="52.7" r="13.2" fill="#185FA5" fill-opacity="0.8" stroke="white" stroke-width="1"><title>32-64/k3 INT8: 94.33% / 10980 B / arena 1952 B</title></circle>
+<circle cx="352.6" cy="75.6" r="13.2" fill="#BA7517" fill-opacity="0.8" stroke="white" stroke-width="1"><title>32-64/k3 INT4: 93.00% / 5940 B / arena 1952 B</title></circle>
+<circle cx="352.6" cy="52.7" r="13.2" fill="#1D9E75" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>32-64/k3 INT4-MSE: 94.33% / 5940 B / arena 1952 B</title></circle>
+<circle cx="412.8" cy="52.7" r="13.1" fill="#185FA5" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>32-64/k5 INT8: 94.33% / 10788 B / arena 1856 B</title></circle>
+<circle cx="350.9" cy="64.1" r="13.1" fill="#BA7517" fill-opacity="0.8" stroke="white" stroke-width="1"><title>32-64/k5 INT4: 93.67% / 5844 B / arena 1856 B</title></circle>
+<circle cx="350.9" cy="59.8" r="13.1" fill="#1D9E75" fill-opacity="0.8" stroke="#111" stroke-width="2"><title>32-64/k5 INT4-MSE: 93.92% / 5844 B / arena 1856 B</title></circle>
+<circle cx="586" cy="36" r="6" fill="#888780"/><text x="598" y="40">FP32</text>
+<circle cx="586" cy="56" r="6" fill="#185FA5"/><text x="598" y="60">INT8</text>
+<circle cx="586" cy="76" r="6" fill="#BA7517"/><text x="598" y="80">INT4</text>
+<circle cx="586" cy="96" r="6" fill="#1D9E75"/><text x="598" y="100">INT4-MSE</text>
+<circle cx="586" cy="124" r="6" fill="none" stroke="#111" stroke-width="2"/><text x="598" y="128">Pareto-optimal</text>
+<text x="578" y="152" fill="#444">marker size ~ arena peak</text>
+</svg>

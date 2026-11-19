@@ -1,0 +1,942 @@
+[
+ {
+  "arch": "4-8/k3",
+  "prec": "FP32",
+  "acc_mean": 0.8424999999999999,
+  "acc_std": 0.049032302277852165,
+  "flash": 2416,
+  "code": null,
+  "arena": 976,
+  "macs": 2292,
+  "measured": false,
+  "params": 604,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "pareto": false
+ },
+ {
+  "arch": "4-8/k5",
+  "prec": "FP32",
+  "acc_mean": 0.8208333333333334,
+  "acc_std": 0.04169998667732271,
+  "flash": 2320,
+  "code": null,
+  "arena": 928,
+  "macs": 2392,
+  "measured": false,
+  "params": 580,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "pareto": false
+ },
+ {
+  "arch": "8-16/k3",
+  "prec": "FP32",
+  "acc_mean": 0.9016666666666667,
+  "acc_std": 0.023833916076791816,
+  "flash": 5584,
+  "code": null,
+  "arena": 1952,
+  "macs": 7464,
+  "measured": false,
+  "params": 1396,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "pareto": false
+ },
+ {
+  "arch": "8-16/k5",
+  "prec": "FP32",
+  "acc_mean": 0.8908333333333335,
+  "acc_std": 0.027182510717166805,
+  "flash": 5392,
+  "code": null,
+  "arena": 1856,
+  "macs": 7472,
+  "measured": false,
+  "params": 1348,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "pareto": false
+ },
+ {
+  "arch": "16-32/k3",
+  "prec": "FP32",
+  "acc_mean": 0.9241666666666667,
+  "acc_std": 0.005137011669140843,
+  "flash": 14224,
+  "code": null,
+  "arena": 3904,
+  "macs": 26448,
+  "measured": false,
+  "params": 3556,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": false,
+   "4096": true,
+   "8192": true
+  },
+  "pareto": false
+ },
+ {
+  "arch": "16-32/k5",
+  "prec": "FP32",
+  "acc_mean": 0.9266666666666667,
+  "acc_std": 0.008498365855987981,
+  "flash": 13840,
+  "code": null,
+  "arena": 3712,
+  "macs": 25696,
+  "measured": false,
+  "params": 3460,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": false,
+   "4096": true,
+   "8192": true
+  },
+  "pareto": false
+ },
+ {
+  "arch": "32-64/k3",
+  "prec": "FP32",
+  "acc_mean": 0.945,
+  "acc_std": 0.004082482904638634,
+  "flash": 40720,
+  "code": null,
+  "arena": 7808,
+  "macs": 98976,
+  "measured": false,
+  "params": 10180,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": false,
+   "4096": false,
+   "8192": true
+  },
+  "pareto": false
+ },
+ {
+  "arch": "32-64/k5",
+  "prec": "FP32",
+  "acc_mean": 0.945,
+  "acc_std": 0.015942605391424162,
+  "flash": 39952,
+  "code": null,
+  "arena": 7424,
+  "macs": 94400,
+  "measured": false,
+  "params": 9988,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": false,
+   "4096": false,
+   "8192": true
+  },
+  "pareto": true
+ },
+ {
+  "arch": "4-8/k3",
+  "prec": "INT8",
+  "acc_mean": 0.8558333333333333,
+  "acc_std": 0.038315213108575455,
+  "flash": 732,
+  "code": 984,
+  "arena": 244,
+  "macs": 2292,
+  "measured": true,
+  "params": 604,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.8975,
+  "fp32_acc_seed0": 0.89,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "4-8/k3",
+  "prec": "INT4",
+  "acc_mean": 0.8033333333333333,
+  "acc_std": 0.03765707842565004,
+  "flash": 440,
+  "code": 984,
+  "arena": 244,
+  "macs": 2292,
+  "measured": true,
+  "params": 604,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.815,
+  "fp32_acc_seed0": 0.89,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "4-8/k3",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.8083333333333332,
+  "acc_std": 0.024944382578492918,
+  "flash": 440,
+  "code": 984,
+  "arena": 244,
+  "macs": 2292,
+  "measured": true,
+  "params": 604,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.815,
+  "fp32_acc_seed0": 0.89,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "4-8/k5",
+  "prec": "INT8",
+  "acc_mean": 0.8216666666666667,
+  "acc_std": 0.04027681991198189,
+  "flash": 708,
+  "code": 984,
+  "arena": 232,
+  "macs": 2392,
+  "measured": true,
+  "params": 580,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.845,
+  "fp32_acc_seed0": 0.8425,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "4-8/k5",
+  "prec": "INT4",
+  "acc_mean": 0.7758333333333334,
+  "acc_std": 0.05042871756802426,
+  "flash": 428,
+  "code": 984,
+  "arena": 232,
+  "macs": 2392,
+  "measured": true,
+  "params": 580,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.785,
+  "fp32_acc_seed0": 0.8425,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "4-8/k5",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.7866666666666666,
+  "acc_std": 0.03991310004942682,
+  "flash": 428,
+  "code": 984,
+  "arena": 232,
+  "macs": 2392,
+  "measured": true,
+  "params": 580,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.8,
+  "fp32_acc_seed0": 0.8425,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "8-16/k3",
+  "prec": "INT8",
+  "acc_mean": 0.8991666666666666,
+  "acc_std": 0.023213980461973503,
+  "flash": 1620,
+  "code": 984,
+  "arena": 488,
+  "macs": 7464,
+  "measured": true,
+  "params": 1396,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.8675,
+  "fp32_acc_seed0": 0.87,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "8-16/k3",
+  "prec": "INT4",
+  "acc_mean": 0.8791666666666668,
+  "acc_std": 0.0227608338062461,
+  "flash": 936,
+  "code": 984,
+  "arena": 488,
+  "macs": 7464,
+  "measured": true,
+  "params": 1396,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.8475,
+  "fp32_acc_seed0": 0.87,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "8-16/k3",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.8983333333333334,
+  "acc_std": 0.023570226039551608,
+  "flash": 936,
+  "code": 984,
+  "arena": 488,
+  "macs": 7464,
+  "measured": true,
+  "params": 1396,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.865,
+  "fp32_acc_seed0": 0.87,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "8-16/k5",
+  "prec": "INT8",
+  "acc_mean": 0.8941666666666667,
+  "acc_std": 0.020949675149960875,
+  "flash": 1572,
+  "code": 984,
+  "arena": 464,
+  "macs": 7472,
+  "measured": true,
+  "params": 1348,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.9225,
+  "fp32_acc_seed0": 0.9275,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "8-16/k5",
+  "prec": "INT4",
+  "acc_mean": 0.8733333333333334,
+  "acc_std": 0.028601670502884185,
+  "flash": 912,
+  "code": 984,
+  "arena": 464,
+  "macs": 7472,
+  "measured": true,
+  "params": 1348,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.9125,
+  "fp32_acc_seed0": 0.9275,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "8-16/k5",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.8808333333333334,
+  "acc_std": 0.025193694096384972,
+  "flash": 912,
+  "code": 984,
+  "arena": 464,
+  "macs": 7472,
+  "measured": true,
+  "params": 1348,
+  "fit": {
+   "512": true,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.915,
+  "fp32_acc_seed0": 0.9275,
+  "budget_checks": [
+   [
+    "fit",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "16-32/k3",
+  "prec": "INT8",
+  "acc_mean": 0.9258333333333334,
+  "acc_std": 0.007728015412913077,
+  "flash": 3972,
+  "code": 984,
+  "arena": 976,
+  "macs": 26448,
+  "measured": true,
+  "params": 3556,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.915,
+  "fp32_acc_seed0": 0.9175,
+  "budget_checks": [
+   [
+    "fit",
+    1024,
+    true
+   ],
+   [
+    "fail",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "16-32/k3",
+  "prec": "INT4",
+  "acc_mean": 0.8933333333333332,
+  "acc_std": 0.017118865486811782,
+  "flash": 2220,
+  "code": 984,
+  "arena": 976,
+  "macs": 26448,
+  "measured": true,
+  "params": 3556,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.88,
+  "fp32_acc_seed0": 0.9175,
+  "budget_checks": [
+   [
+    "fit",
+    1024,
+    true
+   ],
+   [
+    "fail",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "16-32/k3",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.9175,
+  "acc_std": 0.012747548783981965,
+  "flash": 2220,
+  "code": 984,
+  "arena": 976,
+  "macs": 26448,
+  "measured": true,
+  "params": 3556,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.9225,
+  "fp32_acc_seed0": 0.9175,
+  "budget_checks": [
+   [
+    "fit",
+    1024,
+    true
+   ],
+   [
+    "fail",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "16-32/k5",
+  "prec": "INT8",
+  "acc_mean": 0.9283333333333333,
+  "acc_std": 0.0077280154129131095,
+  "flash": 3876,
+  "code": 984,
+  "arena": 928,
+  "macs": 25696,
+  "measured": true,
+  "params": 3460,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.9325,
+  "fp32_acc_seed0": 0.93,
+  "budget_checks": [
+   [
+    "fit",
+    1024,
+    true
+   ],
+   [
+    "fail",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "16-32/k5",
+  "prec": "INT4",
+  "acc_mean": 0.91,
+  "acc_std": 0.008164965809277268,
+  "flash": 2172,
+  "code": 984,
+  "arena": 928,
+  "macs": 25696,
+  "measured": true,
+  "params": 3460,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.91,
+  "fp32_acc_seed0": 0.93,
+  "budget_checks": [
+   [
+    "fit",
+    1024,
+    true
+   ],
+   [
+    "fail",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "16-32/k5",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.9083333333333333,
+  "acc_std": 0.0077280154129131095,
+  "flash": 2172,
+  "code": 984,
+  "arena": 928,
+  "macs": 25696,
+  "measured": true,
+  "params": 3460,
+  "fit": {
+   "512": false,
+   "1024": true,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.915,
+  "fp32_acc_seed0": 0.93,
+  "budget_checks": [
+   [
+    "fit",
+    1024,
+    true
+   ],
+   [
+    "fail",
+    512,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "32-64/k3",
+  "prec": "INT8",
+  "acc_mean": 0.9433333333333334,
+  "acc_std": 0.007168604389202173,
+  "flash": 10980,
+  "code": 984,
+  "arena": 1952,
+  "macs": 98976,
+  "measured": true,
+  "params": 10180,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.935,
+  "fp32_acc_seed0": 0.94,
+  "budget_checks": [
+   [
+    "fit",
+    2048,
+    true
+   ],
+   [
+    "fail",
+    1024,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "32-64/k3",
+  "prec": "INT4",
+  "acc_mean": 0.93,
+  "acc_std": 0.009354143466934842,
+  "flash": 5940,
+  "code": 984,
+  "arena": 1952,
+  "macs": 98976,
+  "measured": true,
+  "params": 10180,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.9325,
+  "fp32_acc_seed0": 0.94,
+  "budget_checks": [
+   [
+    "fit",
+    2048,
+    true
+   ],
+   [
+    "fail",
+    1024,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "32-64/k3",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.9433333333333334,
+  "acc_std": 0.007168604389202173,
+  "flash": 5940,
+  "code": 984,
+  "arena": 1952,
+  "macs": 98976,
+  "measured": true,
+  "params": 10180,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.935,
+  "fp32_acc_seed0": 0.94,
+  "budget_checks": [
+   [
+    "fit",
+    2048,
+    true
+   ],
+   [
+    "fail",
+    1024,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "32-64/k5",
+  "prec": "INT8",
+  "acc_mean": 0.9433333333333334,
+  "acc_std": 0.013123346456686311,
+  "flash": 10788,
+  "code": 984,
+  "arena": 1856,
+  "macs": 94400,
+  "measured": true,
+  "params": 9988,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.925,
+  "fp32_acc_seed0": 0.9225,
+  "budget_checks": [
+   [
+    "fit",
+    2048,
+    true
+   ],
+   [
+    "fail",
+    1024,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ },
+ {
+  "arch": "32-64/k5",
+  "prec": "INT4",
+  "acc_mean": 0.9366666666666666,
+  "acc_std": 0.01736055554666639,
+  "flash": 5844,
+  "code": 984,
+  "arena": 1856,
+  "macs": 94400,
+  "measured": true,
+  "params": 9988,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.9125,
+  "fp32_acc_seed0": 0.9225,
+  "budget_checks": [
+   [
+    "fit",
+    2048,
+    true
+   ],
+   [
+    "fail",
+    1024,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": false
+ },
+ {
+  "arch": "32-64/k5",
+  "prec": "INT4-MSE",
+  "acc_mean": 0.9391666666666666,
+  "acc_std": 0.015456030825826186,
+  "flash": 5844,
+  "code": 984,
+  "arena": 1856,
+  "macs": 94400,
+  "measured": true,
+  "params": 9988,
+  "fit": {
+   "512": false,
+   "1024": false,
+   "2048": true,
+   "4096": true,
+   "8192": true
+  },
+  "target_acc_seed0": 0.9175,
+  "fp32_acc_seed0": 0.9225,
+  "budget_checks": [
+   [
+    "fit",
+    2048,
+    true
+   ],
+   [
+    "fail",
+    1024,
+    true
+   ]
+  ],
+  "static_sram": 32776,
+  "pareto": true
+ }
+]
